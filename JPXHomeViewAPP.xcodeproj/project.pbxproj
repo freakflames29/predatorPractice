@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3396E95E2C31962700C9E519 /* SingleDinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3396E95D2C31962700C9E519 /* SingleDinoView.swift */; };
+		3396E9602C31A1D000C9E519 /* NewsflashBB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3396E95F2C31A1D000C9E519 /* NewsflashBB.ttf */; };
+		33A8E7832C30472900933140 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A8E7822C30472900933140 /* NewView.swift */; };
+		33A8E7852C3047B700933140 /* NewDinoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A8E7842C3047B700933140 /* NewDinoModel.swift */; };
+		33A8E7882C30492A00933140 /* NewDinoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A8E7872C30492A00933140 /* NewDinoController.swift */; };
 		33E69D832C2F1281005302B8 /* JPXHomeViewAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E69D822C2F1281005302B8 /* JPXHomeViewAPPApp.swift */; };
 		33E69D852C2F1281005302B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E69D842C2F1281005302B8 /* ContentView.swift */; };
 		33E69D872C2F1282005302B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E69D862C2F1282005302B8 /* Assets.xcassets */; };
@@ -14,6 +19,9 @@
 		33E69D942C2F1282005302B8 /* JPXHomeViewAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E69D932C2F1282005302B8 /* JPXHomeViewAPPTests.swift */; };
 		33E69D9E2C2F1282005302B8 /* JPXHomeViewAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E69D9D2C2F1282005302B8 /* JPXHomeViewAPPUITests.swift */; };
 		33E69DA02C2F1282005302B8 /* JPXHomeViewAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E69D9F2C2F1282005302B8 /* JPXHomeViewAPPUITestsLaunchTests.swift */; };
+		33E69DAD2C2F1512005302B8 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 33E69DAC2C2F1512005302B8 /* jpapexpredators.json */; };
+		33E69DB12C2F1E63005302B8 /* DinoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E69DB02C2F1E63005302B8 /* DinoModel.swift */; };
+		33E69DB32C2F1FE4005302B8 /* Predator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E69DB22C2F1FE4005302B8 /* Predator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3396E95D2C31962700C9E519 /* SingleDinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDinoView.swift; sourceTree = "<group>"; };
+		3396E95F2C31A1D000C9E519 /* NewsflashBB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NewsflashBB.ttf; path = "../../../../../../../Library/CloudStorage/GoogleDrive-sourav292922@gmail.com/My Drive/fonts/newsflash-bb/NewsflashBB.ttf"; sourceTree = "<group>"; };
+		3396E9612C31A1E300C9E519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		33A8E7822C30472900933140 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		33A8E7842C3047B700933140 /* NewDinoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDinoModel.swift; sourceTree = "<group>"; };
+		33A8E7872C30492A00933140 /* NewDinoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDinoController.swift; sourceTree = "<group>"; };
 		33E69D7F2C2F1281005302B8 /* JPXHomeViewAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPXHomeViewAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E69D822C2F1281005302B8 /* JPXHomeViewAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPXHomeViewAPPApp.swift; sourceTree = "<group>"; };
 		33E69D842C2F1281005302B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,9 @@
 		33E69D992C2F1282005302B8 /* JPXHomeViewAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPXHomeViewAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E69D9D2C2F1282005302B8 /* JPXHomeViewAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPXHomeViewAPPUITests.swift; sourceTree = "<group>"; };
 		33E69D9F2C2F1282005302B8 /* JPXHomeViewAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPXHomeViewAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33E69DAC2C2F1512005302B8 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jpapexpredators.json; path = ../../JPXPreditor/JP17Resources/jpapexpredators.json; sourceTree = "<group>"; };
+		33E69DB02C2F1E63005302B8 /* DinoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoModel.swift; sourceTree = "<group>"; };
+		33E69DB22C2F1FE4005302B8 /* Predator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +88,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33A8E7862C3048FF00933140 /* NewView */ = {
+			isa = PBXGroup;
+			children = (
+				33A8E7822C30472900933140 /* NewView.swift */,
+				3396E95F2C31A1D000C9E519 /* NewsflashBB.ttf */,
+				33A8E7872C30492A00933140 /* NewDinoController.swift */,
+				33A8E7842C3047B700933140 /* NewDinoModel.swift */,
+				3396E95D2C31962700C9E519 /* SingleDinoView.swift */,
+			);
+			path = NewView;
+			sourceTree = "<group>";
+		};
 		33E69D762C2F1281005302B8 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +123,13 @@
 		33E69D812C2F1281005302B8 /* JPXHomeViewAPP */ = {
 			isa = PBXGroup;
 			children = (
+				3396E9612C31A1E300C9E519 /* Info.plist */,
 				33E69D822C2F1281005302B8 /* JPXHomeViewAPPApp.swift */,
 				33E69D842C2F1281005302B8 /* ContentView.swift */,
+				33A8E7862C3048FF00933140 /* NewView */,
+				33E69DB02C2F1E63005302B8 /* DinoModel.swift */,
+				33E69DB22C2F1FE4005302B8 /* Predator.swift */,
+				33E69DAC2C2F1512005302B8 /* jpapexpredators.json */,
 				33E69D862C2F1282005302B8 /* Assets.xcassets */,
 				33E69D882C2F1282005302B8 /* Preview Content */,
 			);
@@ -233,6 +267,8 @@
 			files = (
 				33E69D8A2C2F1282005302B8 /* Preview Assets.xcassets in Resources */,
 				33E69D872C2F1282005302B8 /* Assets.xcassets in Resources */,
+				3396E9602C31A1D000C9E519 /* NewsflashBB.ttf in Resources */,
+				33E69DAD2C2F1512005302B8 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A8E7852C3047B700933140 /* NewDinoModel.swift in Sources */,
 				33E69D852C2F1281005302B8 /* ContentView.swift in Sources */,
 				33E69D832C2F1281005302B8 /* JPXHomeViewAPPApp.swift in Sources */,
+				33E69DB32C2F1FE4005302B8 /* Predator.swift in Sources */,
+				33A8E7832C30472900933140 /* NewView.swift in Sources */,
+				33A8E7882C30492A00933140 /* NewDinoController.swift in Sources */,
+				3396E95E2C31962700C9E519 /* SingleDinoView.swift in Sources */,
+				33E69DB12C2F1E63005302B8 /* DinoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +466,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JPXHomeViewAPP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JPXHomeViewAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +495,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JPXHomeViewAPP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JPXHomeViewAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

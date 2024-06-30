@@ -11,7 +11,7 @@ import SwiftUI
 struct JPXHomeViewAPPApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NewView()
         }
     }
 }
